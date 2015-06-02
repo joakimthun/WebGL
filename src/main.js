@@ -138,6 +138,10 @@ function main() {
     start();
 }
 
+function degreesToRadians(d) {
+    return d * Math.PI / 180;
+}
+
 function pushModelViewMatrix() {
     var copy = mat4.create();
     mat4.set(modelViewMatrix, copy);
@@ -150,8 +154,4 @@ function popModelViewMatrix() {
     }
 
     modelViewMatrix = modelViewMatrixStack.pop();
-}
-
-function degreesToRadians(d) {
-    return d * Math.PI / 180;
 }
