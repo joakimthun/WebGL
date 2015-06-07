@@ -82,9 +82,9 @@ function drawScene() {
     drawPyramid(-5.0, 2.8, -10.0);
     drawPyramid(-5.0, -2.5, -10.0);
     
-    drawPyramid(-5.0, 0.0, -20.0);
-    drawPyramid(-5.0, 2.8, -20.0);
-    drawPyramid(-5.0, -2.5, -20.0);
+    drawPyramid(-5.0, 0.0, -25.0);
+    drawPyramid(-5.0, 2.8, -25.0);
+    drawPyramid(-5.0, -2.5, -25.0);
     
     drawPyramid(-5.0, 0.0, -40.0);
     drawPyramid(-5.0, 2.8, -40.0);
